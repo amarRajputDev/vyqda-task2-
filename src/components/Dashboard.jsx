@@ -42,6 +42,7 @@ const Dashboard = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Cards */}
         {filteredUsers.map((user) => (
           <div
             key={user.id}
